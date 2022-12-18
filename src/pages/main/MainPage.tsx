@@ -6,21 +6,21 @@ import { NeuBox, NeuBoxContainer, NeuBoxText } from 'components/common/neu-butto
 import { NeuBoxOption } from './types';
 
 const newBoxOptions: Array<NeuBoxOption> = [
-  { name: "Me" },
-  { name: "Books" },
-  { name: "Guacamole" },
-  { name: "NPM" },
-  { name: "Pass" },
-  { name: "Photos" },
-  { name: "Portainer" },
-  { name: "Router" },
-  { name: "Synology" },
+  { name: "Me", url: "https://me.kodw.kr/", primary: true },
+  { name: "B" , url: "https://books.kodw.kr"},
+  { name: "G" , url: "https://guacamole.kodw.kr/"},
+  { name: "N" , url: "https://npm.kodw.kr/"},
+  { name: "Pa", url: "https://pass.kodw.kr/"},
+  { name: "Ph", url: "https://photos.kodw.kr/"},
+  { name: "Po", url: "https://portainer.kodw.kr/"},
+  { name: "R" , url: "https://router.kodw.kr/"},
+  { name: "S" , url: "https://nas.kodw.kr/"},
 ];
 
 const makeNeuBoxList = (options: Array<NeuBoxOption>) => options.map(
-  ({name}) => (
+  ({name, primary, url}) => (
     <NeuBox>
-      <NeuBoxText href='naver.com'>
+      <NeuBoxText href={url} primary={primary}>
        {name} 
       </NeuBoxText>
     </NeuBox>
