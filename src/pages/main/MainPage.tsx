@@ -6,14 +6,14 @@ import { NeuBox, NeuBoxContainer, NeuBoxText } from 'components/common/neu-butto
 import { NeuBoxOption } from './types';
 
 const newBoxOptions: Array<NeuBoxOption> = [
-  { name: "Me", url: "https://me.kodw.kr/", primary: true },
+  { name: "Me", url: "https://kodw.netlify.app/", primary: true },
   { name: "B" , url: "https://books.kodw.kr"},
   { name: "G" , url: "https://guacamole.kodw.kr/"},
   { name: "N" , url: "https://npm.kodw.kr/"},
   { name: "Pa", url: "https://pass.kodw.kr/"},
   { name: "Ph", url: "https://photos.kodw.kr/"},
   { name: "Po", url: "https://portainer.kodw.kr/"},
-  { name: "R" , url: "https://router.kodw.kr/"},
+  { name: "R" , url: "http://kodw0402.synology.me:3012"},
   { name: "S" , url: "https://nas.kodw.kr/"},
 ];
 
