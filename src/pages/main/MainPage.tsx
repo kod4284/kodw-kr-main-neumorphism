@@ -8,7 +8,7 @@ import { NeuBoxOption } from './types';
 const newBoxOptions: Array<NeuBoxOption> = [
   { name: "Me", url: "https://kodw.netlify.app/", primary: true },
   { name: "B" , url: "https://books.kodw.kr"},
-  { name: "G" , url: "https://guacamole.kodw.kr/"},
+  { name: "G" , url: "https://kodw0402.synology.me/"},
   { name: "N" , url: "https://npm.kodw.kr/"},
   { name: "Pa", url: "https://pass.kodw.kr/"},
   { name: "Ph", url: "https://photos.kodw.kr/"},
